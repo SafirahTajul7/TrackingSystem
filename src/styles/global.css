@@ -1,0 +1,25 @@
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.nav-link:hover {
+  color: #3b7c44 !important;
+}
+
+.nav-link.router-link-active {
+  color: #3b7c44 !important;
+  font-weight: 600;
+}
+
+[data-bs-theme="dark"] {
+  --bs-body-bg: #121212;
+  --bs-body-color: #eaeaea;
+  --bs-card-bg: #1e1e1e;
+  --bs-border-color: #333;
+}
+
